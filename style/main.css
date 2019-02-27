@@ -1,2 +1,463 @@
-body{height:100vh;width:100vw;margin:0;padding:0;font-family:Open Sans,sans-serif;background-size:cover;background-repeat:no-repeat;background-position:50%}a{color:inherit;text-decoration:inherit}.LandingComponent{width:100vw;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:url(../images/landing-background.jpg);background-size:cover;background-repeat:no-repeat;background-position:50%}.LandingComponent .Logo{width:12%;height:auto}.LandingComponent h1{color:#fff;font-family:Open Sans,sans-serif;font-size:1.9em;font-weight:700}@media screen and (max-width:700px){.LandingComponent h1{font-size:1em}}.LandingComponent .Programme{position:absolute;top:20%;left:15%}.LandingComponent .Partenaires{position:absolute;top:20%;left:65%}.LandingComponent .Team{position:absolute;top:65%;left:17%}.LandingComponent .Contact{position:absolute;top:65%;left:65%}@media screen and (max-width:700px){.LandingComponent .Programme{top:28%;left:10%}.LandingComponent .Partenaires{top:28%;left:62%}.LandingComponent .Team{top:63%;left:16%}.LandingComponent .Contact{top:63%;left:63%}}.LandingComponent .ContactLogos{position:absolute;top:85%;height:10vh;margin:0;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center}.LandingComponent .ContactLogos a,.LandingComponent .ContactLogos img{height:auto;max-height:50px;max-width:50px;min-width:30px;width:3.5vw}.LandingComponent .ContactLogos a{margin:0 1vw}.TeamComponent{width:100vw;height:auto;min-height:100vh;color:#fff;display:flex;flex-direction:column;align-items:center;background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(../images/main-background.jpg);background-size:contain;background-repeat:repeat;background-position:50%;color:#f7eef7}.TeamComponent .Pics{width:80vw;display:flex;flex-direction:row;flex-wrap:wrap;align-content:center;justify-content:center}.TeamComponent .Pic img{width:15vw;height:auto;margin:3vh 5vw 2vh;box-shadow:1px 1px 4px 4px #000}.TeamComponent .Pic p{text-align:center;color:#b818bd;font-size:1.2em;margin:0 5vw 3vh}@media screen and (max-width:700px){.TeamComponent .Pic p{font-size:.9em;margin:-1vh 5vw 2vh}}.NavBarComponent{height:5vh;width:100vw;margin:5vh 0 7vh;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:1.4em;color:#fff}.NavBarComponent a{margin:0 2% 0 0;padding:1% 2%;color:#6d6dff;background:rgba(182,182,255,.18);border:2px solid #6d6dff}@media screen and (max-width:750px) and (min-width:551px){.NavBarComponent{font-size:.8em}}@media screen and (max-width:550px){.NavBarComponent{flex-wrap:wrap;font-size:.8em;margin:3vh 2vw 8vh}.NavBarComponent a{margin:1%}}.DayComponent{width:100vw;height:auto;min-height:100vh;display:flex;flex-direction:column;align-items:center;background:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url(../images/main-background.jpg);background-size:cover;background-repeat:no-repeat;background-position:50%;color:#ff81ff}.DayComponent .DaysBox{height:20vh;margin:0 0 2vh;height:-webkit-max-content;height:-moz-max-content;height:max-content;flex-direction:row;flex-wrap:wrap}.DayComponent .Day,.DayComponent .DaysBox{display:flex;justify-content:center;align-items:center}.DayComponent .Day{flex-direction:column}.DayComponent .DayEvents article{margin:0}.DayComponent .DaysBox h2{text-align:center;font-size:1.6em}.DayComponent .DayEvents{display:flex;flex-wrap:wrap;justify-content:center}.DayComponent .EventWidget{width:37%;min-width:250px;margin:0 5% 5%;display:flex;flex-direction:column}.DayComponent .EventWidget div{margin:0;display:flex;flex-direction:row}.DayComponent .EventWidget .Info{display:flex;flex-direction:column;margin:0 0 3vh}.DayComponent .EventWidget h3{font-size:1.3em;margin-bottom:.8vh}.DayComponent .EventWidget .Info p{margin:0 0 0 1%;font-size:1.1em;text-align:justify}.DayComponent .EventWidget .Text{margin:2% 0 0;font-size:1.1em;text-align:justify}.EventsComponent{width:100vw;height:auto;min-height:100vh;display:flex;flex-direction:column;align-items:center;background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(../images/main-background.jpg);background-size:cover;background-repeat:no-repeat;background-position:50%;color:#ff81ff}.EventsComponent .DaysBox{height:20vh;max-width:60vw;margin:0 0 2vh;height:-webkit-max-content;height:-moz-max-content;height:max-content}.EventsComponent .Days,.EventsComponent .DaysBox{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center}.EventsComponent .Days{width:80vw;font-size:.9em}@media screen and (max-width:700px){.EventsComponent .Days{font-size:.6em}}.EventsComponent .Day{width:20vw;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:150px;max-height:100px}.EventsComponent .Day.blink_me_1,.EventsComponent .Day.blink_me_2{margin:5% 0}.EventsComponent .Day article{margin:0}.EventsComponent .Day article h2{margin:0;text-align:center}.EventsComponent .DayEvents{display:flex;flex-wrap:wrap;justify-content:center}.EventsComponent hr{width:60vw;margin:1vh auto 5vh}@-webkit-keyframes blinker{0%{opacity:1}20%{opacity:0}60%{opacity:1}to{opacity:1}}@keyframes blinker{0%{opacity:1}20%{opacity:0}60%{opacity:1}to{opacity:1}}.EventsComponent .LinkToFacebook{display:flex;flex-direction:row;align-items:center;justify-content:center;margin:5vh 0}.EventsComponent .LinkToFacebook img{height:auto;width:3vw}.EventsComponent .LinkToFacebook p{margin:0 2vw;font-size:1.2em;color:#7366ff}.ContactsComponent{width:100vw;height:auto;min-height:100vh;background:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url(../images/main-background.jpg);background-size:cover;background-repeat:no-repeat;background-position:50%;color:#ff81ff}.ContactsComponent,.ContactsComponent .Main{display:flex;flex-direction:column;align-items:center}.ContactsComponent .Main{height:50vh;min-height:420px;max-width:60vw;margin:0 10vw 0 0;flex-wrap:wrap;justify-content:center}.ContactsComponent article{margin:5vh 1vw;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;width:200px}.ContactsComponent article p{margin:0 0 0 30px;font-size:1.2em}.ContactsComponent article img{height:auto;max-height:50px;max-width:50px;width:5vw;margin:0}@media screen and (max-width:400px){.ContactsComponent article img{min-width:30px}}.PartenairesComponent{width:100vw;height:auto;min-height:100vh;display:flex;flex-direction:column;align-items:center;background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(../images/main-background.jpg);background-size:cover;background-repeat:no-repeat;background-position:50%;color:#f7eef7}.PartenairesComponent .Logos{margin:5vh 1vw;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;width:80vw}.PartenairesComponent .Logos img{margin:5vh 5vw;width:10vw;min-width:100px;height:auto}.PartenairesComponent .Logos .ALaFolie{width:10vw}.PartenairesComponent .Logos .CentreLgbt,.PartenairesComponent .Logos .LaColonie{width:15vw}.PartenairesComponent .Logos .EcoGlitter{width:10vw;background:#fff;padding:2vh 2vw}.PartenairesComponent .Logos .LaMutinerie,.PartenairesComponent .Logos .SciencesPo{width:15vw}.PartenairesComponent .Logos .WetForHer{width:20vw}
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans,sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.LandingComponent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/landing-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.LandingComponent .Logo {
+    width: 12%;
+    height: auto;
+}
+.LandingComponent h1 {
+    color: #fff;
+    font-family: Open Sans,sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+@media screen and (max-width:700px) {
+    .LandingComponent h1 {
+        font-size: 1em;
+    }
+}
+.LandingComponent .Programme {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.LandingComponent .Partenaires {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+.LandingComponent .Team {
+    position: absolute;
+    top: 65%;
+    left: 17%;
+}
+.LandingComponent .Contact {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+@media screen and (max-width:700px) {
+    .LandingComponent .Programme {
+        top: 28%;
+        left: 10%;
+    }
+    .LandingComponent .Partenaires {
+        top: 28%;
+        left: 62%;
+    }
+    .LandingComponent .Team {
+        top: 63%;
+        left: 16%;
+    }
+    .LandingComponent .Contact {
+        top: 63%;
+        left: 63%;
+    }
+}
+.LandingComponent .ContactLogos {
+    position: absolute;
+    top: 85%;
+    height: 10vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.LandingComponent .ContactLogos a,
+.LandingComponent .ContactLogos img {
+    height: auto;
+    max-height: 50px;
+    max-width: 50px;
+    min-width: 30px;
+    width: 3.5vw;
+}
+.LandingComponent .ContactLogos a {
+    margin: 0 1vw;
+}
+.TeamComponent {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(../images/main-background.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: 50%;
+    color: #f7eef7;
+}
+.TeamComponent .Pics {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.TeamComponent .Pic img {
+    width: 15vw;
+    height: auto;
+    margin: 3vh 5vw 2vh;
+    box-shadow: 1px 1px 4px 4px #000;
+}
+.TeamComponent .Pic p {
+    text-align: center;
+    color: #b818bd;
+    font-size: 1.2em;
+    margin: 0 5vw 3vh;
+}
+@media screen and (max-width:700px) {
+    .TeamComponent .Pic p {
+        font-size: 0.9em;
+        margin: -1vh 5vw 2vh;
+    }
+}
+.NavBarComponent {
+    height: 5vh;
+    width: 100vw;
+    margin: 5vh 0 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    color: #fff;
+}
+.NavBarComponent a {
+    margin: 0 2% 0 0;
+    padding: 1% 2%;
+    color: #6d6dff;
+    background: rgba(182,182,255,.18);
+    border: 2px solid #6d6dff;
+}
+@media screen and (max-width:750px) and (min-width:551px) {
+    .NavBarComponent {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:550px) {
+    .NavBarComponent {
+        flex-wrap: wrap;
+        font-size: 0.8em;
+        margin: 3vh 2vw 8vh;
+    }
+    .NavBarComponent a {
+        margin: 1%;
+    }
+}
+.DayComponent {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url(../images/main-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: #ff81ff;
+}
+.DayComponent .DaysBox {
+    height: 20vh;
+    margin: 0 0 2vh;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.DayComponent .Day,
+.DayComponent .DaysBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DayComponent .Day {
+    flex-direction: column;
+}
+.DayComponent .DayEvents article {
+    margin: 0;
+}
+.DayComponent .DaysBox h2 {
+    text-align: center;
+    font-size: 1.6em;
+}
+.DayComponent .DayEvents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.DayComponent .EventWidget {
+    width: 37%;
+    min-width: 250px;
+    margin: 0 5% 5%;
+    display: flex;
+    flex-direction: column;
+}
+.DayComponent .EventWidget div {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.DayComponent .EventWidget .Info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3vh;
+}
+.DayComponent .EventWidget h3 {
+    font-size: 1.3em;
+    margin-bottom: 0.8vh;
+}
+.DayComponent .EventWidget .Info p {
+    margin: 0 0 0 1%;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.DayComponent .EventWidget .Text {
+    margin: 2% 0 0;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.EventsComponent {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(../images/main-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: #ff81ff;
+}
+.EventsComponent .DaysBox {
+    height: 20vh;
+    max-width: 60vw;
+    margin: 0 0 2vh;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+.EventsComponent .Days,
+.EventsComponent .DaysBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.EventsComponent .Days {
+    width: 80vw;
+    font-size: 0.9em;
+}
+@media screen and (max-width:700px) {
+    .EventsComponent .Days {
+        font-size: 0.6em;
+    }
+}
+.EventsComponent .Day {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    max-height: 100px;
+}
+.EventsComponent .Day.blink_me_1,
+.EventsComponent .Day.blink_me_2 {
+    margin: 5% 0;
+}
+.EventsComponent .Day article {
+    margin: 0;
+}
+.EventsComponent .Day article h2 {
+    margin: 0;
+    text-align: center;
+}
+.EventsComponent .DayEvents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.EventsComponent hr {
+    width: 60vw;
+    margin: 1vh auto 5vh;
+}
+@-webkit-keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.EventsComponent .LinkToFacebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 0;
+}
+.EventsComponent .LinkToFacebook img {
+    height: auto;
+    width: 3vw;
+}
+.EventsComponent .LinkToFacebook p {
+    margin: 0 2vw;
+    font-size: 1.2em;
+    color: #7366ff;
+}
+.ContactsComponent {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url(../images/main-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: #ff81ff;
+}
+.ContactsComponent,
+.ContactsComponent .Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContactsComponent .Main {
+    height: 50vh;
+    min-height: 420px;
+    max-width: 60vw;
+    margin: 0 10vw 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ContactsComponent article {
+    margin: 5vh 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+}
+.ContactsComponent article p {
+    margin: 0 0 0 30px;
+    font-size: 1.2em;
+}
+.ContactsComponent article img {
+    height: auto;
+    max-height: 50px;
+    max-width: 50px;
+    width: 5vw;
+    margin: 0;
+}
+@media screen and (max-width:400px) {
+    .ContactsComponent article img {
+        min-width: 30px;
+    }
+}
+.PartenairesComponent {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(../images/main-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: #f7eef7;
+}
+.PartenairesComponent .Logos {
+    margin: 5vh 1vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+.PartenairesComponent .Logos img {
+    margin: 5vh 5vw;
+    width: 10vw;
+    min-width: 100px;
+    height: auto;
+}
+.PartenairesComponent .Logos .LogosLarge{
+    width: 20vw;
+}
+
+.PartenairesComponent .Logos .LogosMedium{
+    width: 15vw;
+}
+
+.PartenairesComponent .Logos .ALaFolie {
+    width: 10vw;
+}
+.PartenairesComponent .Logos .CentreLgbt,
+.PartenairesComponent .Logos .LaColonie {
+    width: 15vw;
+}
+.PartenairesComponent .Logos .EcoGlitter {
+    width: 10vw;
+    background: #fff;
+    padding: 2vh 2vw;
+}
+.PartenairesComponent .Logos .LaMutinerie,
+.PartenairesComponent .Logos .SciencesPo {
+    width: 15vw;
+}
+.PartenairesComponent .Logos .WetForHer {
+    width: 20vw;
+}
 /*# sourceMappingURL=main.ed9d7655.chunk.css.map */
