@@ -461,3 +461,12 @@ a {
     width: 20vw;
 }
 /*# sourceMappingURL=main.ed9d7655.chunk.css.map */
+
+.DayEvents .LinkToFacebookEvent {
+  color: #465cd8;
+  font-size: 1.2em;
+}
+
+.DayEvents .LinkToFacebookEvent span {
+  font-weight: bold;
+}
