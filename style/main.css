@@ -427,11 +427,16 @@ a {
     align-items: center;
     width: 80vw;
 }
-.PartenairesComponent .Logos img {
-    margin: 5vh 5vw;
+.PartenairesComponent .Logos a {
+    display: block;
+    margin: 5vh 8vw;
     width: 10vw;
     min-width: 100px;
     height: auto;
+}
+.PartenairesComponent .Logos img {
+  width: 100%;
+  height: : 100%;
 }
 .PartenairesComponent .Logos .LogosLarge{
     width: 20vw;
