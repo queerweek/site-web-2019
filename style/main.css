@@ -445,6 +445,10 @@ a {
 .PartenairesComponent .Logos .LogosMedium{
     width: 15vw;
 }
+.PartenairesComponent .Logos .White{
+    background-color: white;
+    padding: 1vh 1.2vw;
+}
 
 .PartenairesComponent .Logos .ALaFolie {
     width: 10vw;
